@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: /etc/puppet/hieradata
+:hierarchy:
+  - node/%{::fqdn}
+  - datacenter/%{zone_datacenter}
+  - global
+:logger: console

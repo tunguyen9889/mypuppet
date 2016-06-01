@@ -1,0 +1,1 @@
+export FACTER_ZONE_DATACENTER=eu

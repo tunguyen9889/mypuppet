@@ -1,0 +1,3 @@
+---
+ntp::ntpd_pool: north-us
+ntp::ntpd_servers: ['0.north-america.pool.ntp.org', '1.north-america.pool.ntp.org', '2.north-america.pool.ntp.org']
